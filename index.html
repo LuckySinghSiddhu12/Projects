@@ -1,72 +1,68 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Diwali Wesite</title>
-    <link rel="stylesheet" href="website/style.css">
+    <title>booknow</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 
 <body>
-    <header>
-        <div class="brand">
-            <h1>Welcome My Diwali Website</h1>
+
+    <section class="form">
+        <div class="container">
+            <div class="row">
+                  <div class="formcontent">
+                      <h2 class="query">For Room <em>INQUIRIES.</em></h2>
+                  </div>
+                <div class="col-md-6">
+                    <form class="fname">
+                        <label></label> <br>
+                        <input type="name" class="formbtn" Placeholder="Legal Name"> <br> <br> 
+                        <label></label> <br>
+                        <input type="email" class="formbtn" Placeholder="Enter Email"> <br> <br><br>
+                        <input type="text" placeholder="Start Date"
+                        onfocus="(this.type='date')" class="startdate"><br><br>
+                         <label></label> <br>
+                        <input type="text" class="formbtn" Placeholder="Your Itinerary in Cameroon"> <br> <br>
+                        <label></label> <br>
+                        <input type="text" class="formbtn" Placeholder="Do you want a driver"> <br> <br>
+                    </form>
+
+                </div>
+                <div class="col-md-6">
+                    <form class="lname">
+                        <label></label> <br>
+                        <input type="text" class="formbtn" Placeholder="Phone Number"> <br> <br>
+                        <label></label> <br>
+                        <input type="text" class="formbtn" Placeholder="Country of Residence"> <br> <br><br>
+                        <!-- <label class="enddate">End Date</label> -->
+                        <input type="text" placeholder="End Date"
+                        onfocus="(this.type='date')"class="enddate"><br><br>
+                       
+                        <label></label> <br>
+                        <input type="text" class="formbtn" Placeholder="Desired vehicle"> <br> <br>
+                        <label></label> <br>
+                        <input type="text" class="formbtn" Placeholder="Person to contact in case of emergency"> <br>
+                        <br>
+                    </form>
+
+                </div>
+            </div>
         </div>
-        <div class="menu">
-            <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">PHOTOS</a></li>
-                <li><a href="">VIDEOS</a></li>
-                <li><a href="">CONTACT US</a></li>
-            </ul>
+        <form class="comment">
+            <label></label><br>
+            <textarea name="message" id="" cols="30" rows="10" class="textarea" 
+                placeholder="Any additional comment that will help us with your booking..."></textarea>
+
+            <div>
+        </form>
+        <div class="sendbtn">
+            <button class="book">BOOK NOW</button>
         </div>
-    </header>
-    <div class="introduction">
-        <h1>Happy Diwali</h1>
-        <h2>Have a happy, safe and blessed Diwali!</h2>
-        <p>Diwali, the festival of lights is indeed the most awaited and the most celebrated festivals of India. People
-            in every nook and cranny of the country welcome the festival with enthusiastic gestures. This wonderful
-            festival is the celebration of five days. On the third day of the celebratory occasion, the key rituals of
-            the Diwali festival take place. Lighting of Diyas and candles all around the house, worshipping the Laxmi
-            Ganesha to summon health and wealth and bursting crackers are the chief rituals of the festival.
-
-            In addition to that, the exchange of heartfelt gifts during Diwali these days have become a mandatory part
-            of the celebration. Friends, families, and colleagues share with each other Diwali gifts as a gesture of
-            showing love and affection. Also, special and grand feast with delicious food that mandatorily includes
-            different varieties of sweets is the special attraction of the occasion.</p><br><br>
-        <p1>Diwali is the festival of lights symbolizing the victory of inner light over the spiritual darkness.</p1>
-        <br><br>
-    </div>
-    <p2>It is the five-day festival starting with Dhanteras; on which people clean their houses and shop for gold and
-        other utensils.</p2>
-    <br><br>
-    <p2>The festival is mainly for all Hindu communities, but some non-Hindu communities celebrate it too.</p2><br><br>
-    <p3> People worship Goddess Lakshmi on this day, the goddess of wealth and prosperity in our lives.</p3> <br><br>
-    <div class="Dhan">
-
-        <h1>Dhanteras</h1>
-
-        <p>Dhanteras, also known as Dhanatrayodashi, is the first day that marks the festival of Diwali in most of
-            India. It is celebrated on the thirteenth lunar day of Krishna Paksha in the Hindu calendar month of Ashvin
-            or Kartika.</p>
-        <img src="dhan.jpg">
-    </div>
-    <div class="Choti Diwali">
-
-        <h1>Choti Diwali</h1>
-
-        <p>Naraka Chaturdashi is an annual Hindu festival that falls on Chaturdashi of the Krishna Paksha in the Hindu
-            calendar month of Ashwayuja or Kartika. It is the second day of the five-day long festival of Diwali. Hindu
-            literature narrates that the asura Narakasura was killed on this day by Krishna and Satyabhama</p>
-        <img src="choti.jpg">
-    </div>
-
-
-    <div class="button">
-        <a href=""> <button type="button">Happy Deepawali</button></a>
-    </div>
+    </section>
 </body>
 
 </html>
